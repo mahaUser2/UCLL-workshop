@@ -1,2 +1,2 @@
-# html_css_js_boilerplate
- Basic html, css og js boilerplate med basic resets
+# Starterfiles for 1h workshop about CSS transitions and animations
+ 
