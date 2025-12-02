@@ -6,10 +6,115 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CSS transitions and animations workshop</title>
   <meta name="description" content="" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./assets/css/style.css" />
   <script src="./assets/js/app.js" defer></script>
 </head>
 
-<body></body>
+<body>
+  <header>
+    <div class="logo">
+      <h2>BL</h2>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Players</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Basket League</h1>
+    <section class="players">
+      <article style="--bg: hsl(262, 52%, 56%)">
+        <img src="./assets/img/p1.webp" alt="Awesome baskeplayer">
+        <p class="playername">Kenny <span>Caldwell</span></p>
+      </article>
+      <article style="--bg: hsl(262, 52%, 56%)">
+        <img src="./assets/img/p2.webp" alt="Awesome baskeplayer">
+        <p class="playername">Mariann <span>Hansen</span></p>
+      </article>
+      <article style="--bg: hsl(154 77% 40%);">
+        <img src="./assets/img/p3.webp" alt="Awesome baskeplayer">
+        <p class="playername">Arthur <span>Lawson</span></p>
+      </article>
+      <article style="--bg: hsl(154 77% 40%);">
+        <img src="./assets/img/p4.webp" alt="Awesome baskeplayer">
+        <p class="playername">Ann <span>Gerry</span></p>
+      </article>
+      <article style="--bg: hsl(154 77% 40%);">
+        <img src="./assets/img/p5.webp" alt="Awesome baskeplayer">
+        <p class="playername">Kenny <span>Dunkin</span></p>
+      </article>
+    </section>
+    <div class="arrow">
+      <a href="#topTeams">
+        <i class="fa-solid fa-arrow-down"></i>
+        <!-- <p>To top teams</p> -->
+      </a>
+    </div>
+    <h2 class="news">Latest news</h2>
+    <section class="filler">
+      <article>
+        <h3>About the League</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla
+          rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.
+          Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Mauris
+          sollicitudin nulla at quam mattis, et interdum velit facilisis. Curabitur eleifend facilisis velit, vel
+          fringilla est ullamcorper id. Sed a ligula quis sapien lacinia egestas. </p>
+        <img src="https://picsum.photos/id/585/500" alt="">
+      </article>
+      <article id="topTeams">
+        <h3>The top teams</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla
+          rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.
+          Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Mauris
+          sollicitudin nulla at quam mattis, et interdum velit facilisis. Curabitur eleifend facilisis velit, vel
+          fringilla est ullamcorper id. Sed a ligula quis sapien lacinia egestas. </p>
+        <img src="https://picsum.photos/id/469/500" alt="">
+      </article>
+      <article>
+        <h3>Our sponsors</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla
+          rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.
+          Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Mauris
+          sollicitudin nulla at quam mattis, et interdum velit facilisis. Curabitur eleifend facilisis velit, vel
+          fringilla est ullamcorper id. Sed a ligula quis sapien lacinia egestas. </p>
+        <img src="https://picsum.photos/id/456/500" alt="">
+      </article>
+      <article>
+        <h3>Mission</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla
+          rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.
+          Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Mauris
+          sollicitudin nulla at quam mattis, et interdum velit facilisis. Curabitur eleifend facilisis velit, vel
+          fringilla est ullamcorper id. Sed a ligula quis sapien lacinia egestas. </p>
+        <img src="https://picsum.photos/id/183/500" alt="">
+      </article>
+      <article>
+        <h3>Vision</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla
+          rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.
+          Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Mauris
+          sollicitudin nulla at quam mattis, et interdum velit facilisis. Curabitur eleifend facilisis velit, vel
+          fringilla est ullamcorper id. Sed a ligula quis sapien lacinia egestas. </p>
+        <img src="https://picsum.photos/id/193/500" alt="">
+      </article>
+      <article>
+        <h3>Fission</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla
+          rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.
+          Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Mauris
+          sollicitudin nulla at quam mattis, et interdum velit facilisis. Curabitur eleifend facilisis velit, vel
+          fringilla est ullamcorper id. Sed a ligula quis sapien lacinia egestas. </p>
+        <img src="https://picsum.photos/id/102/500" alt="">
+      </article>
+    </section>
+  </main>
+
+</body>
 
 </html>
