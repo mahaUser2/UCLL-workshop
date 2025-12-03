@@ -205,19 +205,6 @@ main {
     margin-bottom: 16px;
     resize: vertical;
     outline: none;
-    transition: border .3s ease-in-out;
-  }
-
-  input[type="email"]:invalid {
-    border: 1px solid red;
-  }
-
-  label:has(input[type="email"]:invalid)::before {
-    content: "X";
-    display: block;
-    width: 30px;
-    aspect-ratio: 1;
-    background: red;
   }
 
 
