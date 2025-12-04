@@ -141,6 +141,7 @@ main {
     gap: 1rem;
     position: relative;
     padding: var(--mdSpacer);
+    padding-bottom: 0;
 
 
     article {
